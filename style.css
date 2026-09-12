@@ -58,6 +58,22 @@ p.spacer{ height:6px; margin:0; }
 strong{ font-weight:700; }
 em{ font-style:italic; }
 .site-footer{ border-top:1px solid var(--line); color:var(--muted); font-size:13px; padding:22px 0; text-align:center; }
+
+/* 李清照 AI 短剧 · 剧本迭代 */
+.doc-title{ font-size:19px; font-weight:700; color:var(--accent); margin:0 0 18px; letter-spacing:.02em; }
+h3.scene{ color:var(--accent2); border-left:3px solid var(--accent2); padding-left:10px; }
+h4.poem{ font-size:15px; color:#9c3f6b; margin:18px 0 4px; letter-spacing:.04em; }
+h4.script{ font-size:14px; color:var(--muted); margin:14px 0 2px; font-weight:600; }
+.doc-table{ width:100%; border-collapse:collapse; margin:18px 0 24px; font-size:14.5px; background:var(--card); }
+.doc-table th,.doc-table td{ border:1px solid var(--line); padding:8px 10px; text-align:left; vertical-align:top; }
+.doc-table th{ background:#f3ede2; font-weight:700; }
+.doc-table.evolve th{ background:var(--accent2); color:#fff; }
+.pagenav{ margin:10px 0 24px; font-size:14px; color:var(--muted); }
+.pagenav a{ color:var(--accent2); text-decoration:none; }
+.pagenav a:hover{ text-decoration:underline; }
+.evolve-h{ margin-top:42px; }
+.evolve-note{ color:var(--muted); font-size:14px; }
+
 @media (max-width:600px){
   .cards{ grid-template-columns:1fr; }
   .cover-title{ font-size:32px; }
